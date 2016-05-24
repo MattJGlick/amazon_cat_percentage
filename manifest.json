@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Online Sourcing Tools",
+  "description": "This extension gives useful tools for AZ FBA Sourcing",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["myscript.js"]
+    }
+  ], 
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
+}
